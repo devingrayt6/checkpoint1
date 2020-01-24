@@ -3,5 +3,19 @@ header{
   color: white;
 }
 nav a, .navbar-brand{
-  color: white;
+  color: white !important;
+}
+nav a:hover{
+  color: rgb(68, 64, 145) !important;
+}
+.header-content{
+  justify-content: center;
+}
+.navbar-div{
+  padding: 5rem;
+}
+@media screen and (max-width: 480px) {
+  .header-text{
+    text-align: center;
+  }
 }
