@@ -44,11 +44,12 @@ hr{
   border-style: solid;
   border-color: white;
   border-bottom: 2px;
-  margin-top: 10rem;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .header-text{
     text-align: center;
   }
