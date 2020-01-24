@@ -1,0 +1,7 @@
+header{
+  background-image: url('./spacex.jpg');
+  color: white;
+}
+nav a, .navbar-brand{
+  color: white;
+}
