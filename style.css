@@ -1,5 +1,6 @@
 header{
-  background-image: url('./spacex.jpg');
+  background-image: url('http://www.wallpapers4u.org/wp-content/uploads/space_background_blue_dots_73340_1920x1080.jpg');
+  background-repeat: no-repeat;
   color: white;
 }
 nav a, .navbar-brand{
@@ -8,14 +9,43 @@ nav a, .navbar-brand{
 nav a:hover{
   color: rgb(68, 64, 145) !important;
 }
-.header-content{
-  justify-content: center;
-}
 .navbar-div{
   padding: 5rem;
 }
+.card{
+  color: black;
+}
+.card-image{
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.card-body{
+  text-align: left;
+  justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
   .header-text{
     text-align: center;
+  }
+  .header-img{
+    width: 100%;
+  }
+  .header-content{
+    flex-direction: row-reverse;
+  }
+  .navbar-div{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 786px) {
+  .header-img{
+    width: 35vw;
+    height: 50vh;
+  }
+  .navbar-div{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
 }
